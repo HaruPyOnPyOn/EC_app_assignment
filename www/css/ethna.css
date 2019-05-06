@@ -1,0 +1,121 @@
+@charset 'utf-8'
+
+body {
+  color:#544a47;
+  font-family: "Avenir Next"
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #544a47;
+  color: #f3f3f3;
+  height: 80px;
+  width: 100%;
+}
+
+.header-logo {
+  font-family: "Trebuchet";
+  font-size: 42px; 
+  padding: 10px 50px 10px 20px;
+  float: left;
+}
+
+.header-list {
+  float: right;
+}
+
+.header-list li {
+  float: left;
+  padding: 12px 24px;
+  border-right: 1px solid #f3f3f3;
+  font-size: 16px;
+}
+.header-list:last-child{
+  border-right: 0;
+}
+/*
+main
+*/
+.main {
+  text-align: center;
+}
+
+.topimage {
+  text-family: 'Century Gothic';
+  font-size: 48px;
+  margin-top: 13%;
+  margin-bottom: 13%;
+  color: #6f4b3e;
+}
+
+/*
+category
+*/
+
+.category-ul {
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+  background-color: #d3cbc6;
+}
+
+.category-ul li {
+  display: table-cell;
+  vertical-align: middle;
+  border-right: 1px solid #fff;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  font-size: 19px;
+}
+.category-ul:last-child{
+  border-right: 0;
+}
+
+.category-ul a {
+  display: block;
+  text-decoration: none;
+  color: #544a47;
+  padding: 10px 0;
+}
+
+
+/*
+footer
+*/
+.footer {
+  background-color: #432f2f;
+  color: #f3f3f3;
+  height: 92px;
+  width: 100%;
+}
+
+.footer-logo {
+  font-family: "Trebuchet";
+  font-size: 28px; 
+  padding: 15px;
+  float: left;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-ul {
+  width: 350px;
+}
+
+.footer-list li {
+  font-size: 80%;
+}
+
+.left {
+  width: 170px;
+  float: left;
+  clear: left;
+}
+
+
